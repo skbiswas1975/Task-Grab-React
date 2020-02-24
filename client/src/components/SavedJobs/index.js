@@ -154,14 +154,9 @@ class SavedJobs extends Component {
 */
 
         const SavedJobs = props => {
-<<<<<<< HEAD
-            console.log(props)
-            return (props.savedJobs.length === 0) ? (
-=======
             return (
                 console.log (props.savedJobs),
                 props.savedJobs.length === 0) ? (
->>>>>>> b404f6f0da879661bc5c847a6cac7844e33dc84b
                 
                 <div className="card">
                 {console.log("length 0")}
